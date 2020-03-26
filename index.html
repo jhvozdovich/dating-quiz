@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+  
+
+  <title>Celebrity dating quiz</title>
+  </head>
+  <body>
+    <div class = "container">
+      <h1>Please fill up the form below</h1>
+      <form id = "formOne">
+        <div class = "form-group">
+          <label for = "age">Please enter your age </label>
+          <input id = "age" class = "form-control" type = "text">
+        </div>
+      
+        <label for = "music"><strong>Choose your favorite music style</strong></label>
+        <select class="form-control" id = "music">
+          <option>Classic music</option>
+          <option>Rock music</option>
+          <option>Rap</option>
+          <option>Country</option>
+          <option>Techno</option>
+        </select>
+
+        <label for = "radio"><strong>Please choose your gender</strong></label>
+        <div class = "radio">
+          <label>
+            <input type = "radio" name = "gender" value = "mail" checked>
+            Male
+          </label>
+        </div>
+        <div class = "radio">
+          <label>
+            <input type = "radio" name = "gender" value = "female">
+            Female
+          </label>
+        </div>
+        <div class = "radio">
+        <label>
+          <input type = "radio" name = "gender" value = "nonbinary">
+          NonBinary
+        </label>
+        </div>
+        <div class = "radio">
+          <label>
+            <input type = "radio" name = "gender" value = "no answer">
+            I prefer not to answer
+          </label>
+        </div>
+
+        <br>
+        <label for="radio">Which are you?</label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="time" value="morning" checked>
+            Morning Person
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="time" value="night">
+            Night Owl
+          </label>
+        </div>
+
+        <br>
+        <label for="color">What is your favorite color</label>
+        <select class="form-control" id="color">
+          <option value="Blue">Blue</option>
+          <option>Green</option>
+          <option>Red</option>
+          <option>Purple</option>
+          <option>Black</option>
+          <option>Orange</option>
+          <option>Yellow</option>
+        </select>
+
+        <button type="submit" class="btn">Let's find out!</button>
+      </form>
+
+      
+
+
+      <div class="result" id="hutcherson">
+        <h1>Josh Hutcherson</h1>
+        <p>He's from the Hunger Games!</p>
+        <p>A fun adventurous soulmate, lucky you!</p>
+        <img src="img/hutcherson.jpg" alt="A photo of Josh Hutcherson from the hunger games.">
+      </div>
+
+      <div class="result" id="bieber">
+        <h1>Justin Bieber</h1>
+        <p>Most known for his hit song "Baby," sorry if it is stuck in your head now.</p>
+        <p>He has tattoos and a wild side! At least according to this Buzzfeed quiz we are referencing.</p>
+        <img src="img/bieber.png" alt="A portrait of Justin Bieber sitting in a car.">
+      </div>
+
+      <div class="result" id="beyonce">
+        <h1>Beyonce</h1>
+        <p>Wow a strong talented lady! They don't call her Queen Bee for nothing!</p>
+        <p>Will you Bee my valentine?</p>
+        <img src="img/beyonce.jpg" alt="A photo of Beyonce at a red carpet event">
+      </div>
+
+      <div class="result" id="gaga">
+        <h1>Lady Gaga</h1>
+        <p>She can sing! She can dance! A creative powerhouse!</p>
+        <p>A great result for someone with a great personality!</p>
+        <img src="img/ladygaga.jpg" alt="A photo of Lady Gaga">
+      </div>
+
+    </div>
+  </body>
+</html>
+
